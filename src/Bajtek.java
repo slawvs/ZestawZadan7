@@ -45,18 +45,4 @@ public class Bajtek {
 		}
 		else return 1;
 	}
-	//druga , gorsza wersja PoliczKoleczka
-	/*private static int PoliczKoleczka(int a)
-	{
-		if(a < 10) return ileKoleczekWcyfrze(a);
-		else if(a<100) 
-		{
-			return ileKoleczekWcyfrze(a/10) + ileKoleczekWcyfrze(a%10);
-		}
-		else
-		{
-			return ileKoleczekWcyfrze(a/100) + ileKoleczekWcyfrze((a%100)/10) + ileKoleczekWcyfrze(a%10) ;
-		}
-	}
-	*/
 }
